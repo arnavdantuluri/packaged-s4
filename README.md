@@ -1,7 +1,13 @@
 # Packaged-S4
 This is an unofficial packaged version of the S4 repo from the Hazy Research group that can be found here https://github.com/HazyResearch/state-spaces
 
-NOTE: This repo might still have many bugs, please create an issue if you come across any. S4 can be installed using "pip install git+https://github.com/arnavdantuluri/packaged-s4.git"
+NOTE: This repo might still have many bugs, please create an issue if you come across any. S4 can be installed using:
+
+!git clone https://github.com/arnavdantuluri/packaged-s4.git
+%cd packaged-s4
+!pip install -e .
+!pip install s4/extensions/kernels/
+then you can use all the state-spaces modules simply with the s4 package, e.g from s4.src.models.sequence import SequenceModule
 
 I plan to do this with Hyena and maybe H3 in the future :))
 
