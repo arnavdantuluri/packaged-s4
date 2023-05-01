@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "s4"
-description = "Open Assistant Model Training Module"
+description = "Hazy Research s4 packaged version"
 version = "1.0.0"
 authors = [
     { name = "Hazy Research"}
@@ -47,7 +47,7 @@ tests = [
 ]
 
 [tool.setuptools]
-py-modules = ["model_training"]
+py-modules = ["s4"]
 
 [tool.black]
 line-length = 120
