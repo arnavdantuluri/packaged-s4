@@ -6,7 +6,7 @@ NOTE: This repo might still have many bugs, please create an issue if you come a
 !git clone https://github.com/arnavdantuluri/packaged-s4.git. <br>
 %cd packaged-s4 <br>
 !pip install -e . <br>
-!pip install s4/extensions/kernels/ <br>
+!pip install s4/extensions/kernels/ <br> #Only if you have CUDA installed on gpus
 then you can use all the state-spaces modules simply with the s4 package, e.g from s4.src.models.sequence import SequenceModule
 
 I plan to do this with Hyena and maybe H3 in the future :))
