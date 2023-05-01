@@ -7,7 +7,7 @@ from einops import rearrange, repeat
 import s4.src.models.hippo.hippo as hippo
 
 import s4.src.utils.train
-log = s4.s4.src.utils.train.get_logger(__name__)
+log = s4.src.utils.train.get_logger(__name__)
 
 def dplr(
     init='hippo',
